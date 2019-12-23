@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/explore/explore",
+    "pages/bookrack/bookrack",
+    "components/classify/classify"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#21272e",
+    "navigationBarTitleText": "悦读",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "mp-icon": "./weui-miniprogram/icon/icon"
+  },
+  "tabBar": {
+    "backgroundColor": "#2a313a",
+    "list": [
+      {
+        "pagePath": "pages/homepage/homepage",
+        "iconPath": "./weui-miniprogram/down/icon_3g3m5dsahfp/jiaicon-my-home.png",
+        "selectedIconPath": "./weui-miniprogram/down/icon_5kxrrunpzwr/jiaicon-my-home.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "iconPath": "./weui-miniprogram/down/icon_3g3m5dsahfp/diqiu_.png",
+        "selectedIconPath": "./weui-miniprogram/down/icon_5kxrrunpzwr/diqiu_.png"
+      },
+      {
+        "pagePath": "pages/bookrack/bookrack",
+        "iconPath": "./weui-miniprogram/down/icon_3g3m5dsahfp/shu.png",
+        "selectedIconPath": "./weui-miniprogram/down/icon_5kxrrunpzwr/shu.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./weui-miniprogram/down/icon_3g3m5dsahfp/user.png",
+        "selectedIconPath": "./weui-miniprogram/down/icon_5kxrrunpzwr/user.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

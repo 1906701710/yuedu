@@ -1,0 +1,113 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 400rpx;
+}
+.hearder-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.setting-wrap{
+  top: 0px;
+  right: 0rpx;
+  position: absolute;
+}
+.mymsg-wrap{
+  overflow: hidden;
+  width: 680rpx;
+  margin: 0 auto;
+  padding-bottom: 40rpx;
+}
+.header-photo{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+  float: left;
+}
+.adress-wrap{
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.name-wrap{
+  font-size: 40rpx;
+}
+.adress{
+  color: #b5b7c5;
+}
+.share-wrap{
+  float: right;
+  border: 1rpx solid #545d66;
+  color: #9497ab;
+  margin-top: 130rpx;
+  padding-bottom: 10rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  border-radius: 10rpx;
+}
+.details-wrap{
+  width: 680rpx;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #2b323b;
+  padding: 20rpx 0px;
+  border-radius: 20rpx;
+  text-align: center;
+}
+.details{
+  border-right: 1px solid #363c45;
+  padding: 0rpx 70rpx;
+}
+.details-sole{
+  border-right: none;
+}
+.my-details{
+  font-size: 27rpx;
+  color: #75808d;
+}
+.main-wrap{
+  width: 680rpx;
+  margin:  0 auto;
+  color: #dcdeea;
+}
+.personal-info-wrap{
+  height: 150rpx;
+  line-height: 150rpx;
+  border-bottom: 1rpx solid #333c47;
+}
+.my-news-wrap{
+  height: 150rpx;
+  line-height: 150rpx;
+  border-bottom: 1rpx solid #333c47;
+}
+.my-account-wrap{
+  height: 150rpx;
+  line-height: 150rpx;
+  border-bottom: 1rpx solid #333c47;
+}
+.my-comment-wrap{
+  height: 150rpx;
+  line-height: 150rpx;
+  border-bottom: 1rpx solid #333c47;
+}
+.news-num{
+  line-height: 40rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  margin-top: 50rpx;
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #fb6894;
+}
+.account-num{
+  color: #fb6894;
+  margin-right: 10rpx;
+}
+.info-left{
+  float: left;
+}
+.info-right{
+  float: right;
+}

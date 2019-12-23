@@ -1,0 +1,7 @@
+/**app.wxss**/
+@import "./weui-miniprogram/down/liebiao/iconfont";
+@import "./weui-miniprogram/down/font_bsd9expdeth/iconfont";
+@import "./weui-miniprogram/down/jiangbei/iconfont";
+.container {
+  color: white;
+} 

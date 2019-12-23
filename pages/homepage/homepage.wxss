@@ -1,0 +1,50 @@
+.container{
+  background-color: #21272e;
+}
+.header-icon-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  padding-bottom: 30rpx;
+}
+.search-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 35rpx 0rpx 35rpx 35rpx;
+  background-color: #2d353d;
+  border-radius: 80rpx;
+  overflow: hidden;
+}
+.icon-wrap{
+  float: left;
+}
+.input-wrap{
+  float: left;
+  margin-left: 15rpx;
+}
+.status-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 40rpx 0rpx;
+}
+.status-left{
+  float: left;
+}
+.status-right{
+  float: right;
+  font-size: 25rpx;
+  color: #a2a8ba;
+  line-height: 20px;
+}
+.see-all-wrap{
+  margin-right: 15rpx;
+}
+.status-main-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.status-main-wrap-wrap{
+  width: 720rpx;
+}

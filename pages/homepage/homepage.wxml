@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="header-icon-wrap">
+    <icon class="iconfont icon-jiangbei"></icon>
+    <icon class="iconfont1 icon-list"></icon>
+  </view>
+  <view class="search-wrap">
+    <mp-icon class="icon-wrap" type="field" icon="search" color="#9da3b4" size="{{25}}"></mp-icon>
+    <input class="input-wrap" placeholder="搜索..."></input>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">分类排行</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="status-main-wrap">
+    <view class="status-main-wrap-wrap">
+      <swiper display-multiple-items="4">
+          <swiper-item wx:for="list">
+            <classify  taxon="{{ }}"></classify>
+          </swiper-item>
+
+        <swiper-item>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+</view>
