@@ -1,0 +1,17 @@
+.book-id-wrap{
+  margin-bottom: 80rpx;
+}
+.book-log-wrap{
+  width: 200rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+}
+.book-name-wrap{
+  font-size: 30rpx; 
+  margin-top: 20rpx;
+}
+.book-author-wrap{
+  margin-top: 5rpx;
+  font-size: 27rpx;
+  color: #a2a8ba;
+}

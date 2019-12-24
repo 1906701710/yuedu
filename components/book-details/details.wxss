@@ -1,0 +1,53 @@
+.booked-id-wrap{
+  width: 680rpx;
+  height: 340rpx;
+  box-sizing: border-box;
+  padding-top: 40rpx;
+}
+.booked-id-bottom-wrap{
+  width: 680rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  background-color: #2a313a;
+}
+.booked-id-photo-wrap{
+  width: 200rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  margin-top: -40rpx;
+  margin-left: 40rpx;
+  float: left;
+}
+.booked-id-right-wrap{
+  float: right;
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.booked-id-name-wrap{
+  font-weight: 600;
+}
+.booked-id-omit-wrap{
+  margin-left: 110rpx;
+}
+.booked-id-author-wrap{
+  font-size: 27rpx;
+  color: #5D637C;
+  padding: 10rpx 0 20rpx 0;
+  border-bottom: 1rpx solid #363D47;
+}
+.booked-id-wroks-wrap{
+  margin-top: 20rpx;
+  line-height: 40rpx;
+  width: 357rpx;
+  height: 80rpx;
+  font-size: 27rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #868DAB; 
+}

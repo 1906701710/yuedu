@@ -1,0 +1,6 @@
+<navigator class="book-id-wrap">
+  <image class="book-log-wrap" src="{{ booksurl }}"></image>
+  <view class="book-name-wrap">{{booksname}}</view>
+  <view class="book-author-wrap">{{author}}</view>
+</navigator>
+<!-- https://wujunhui.xyz/book-pfdsj.png -->

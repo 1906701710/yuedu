@@ -16,14 +16,61 @@
   </view>
   <view class="status-main-wrap">
     <view class="status-main-wrap-wrap">
-      <swiper display-multiple-items="4">
-          <swiper-item wx:for="list">
-            <classify  taxon="{{ }}"></classify>
+      <swiper class="swirpe-wrap" display-multiple-items="4">
+      <block wx:for="{{ taxonarr }}"  wx:key= "*this">
+          <swiper-item>
+            <classify taxonurl="{{ taxonarr[index].touxiang }}" taxon="{{ taxonarr[index].type }}"></classify>
           </swiper-item>
-
+          </block>
         <swiper-item>
         </swiper-item>
       </swiper>
     </view>
   </view>
+  <view class="status-wrap">
+    <view class="status-left">作者排行</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="status-main-wrap">
+    <view class="status-main-wrap-wrap">
+      <swiper class="swirpe-wrap" display-multiple-items="4">
+      <block wx:for="{{ authorarr }}"  wx:key= "*this">
+          <swiper-item>
+            <classify taxonurl="{{ authorarr[index].touxiang }}" taxon="{{ authorarr[index].name }}"></classify>
+          </swiper-item>
+          </block>
+        <swiper-item>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">新发布</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="books-wrap">
+    <books wx:for ="{{ booksarr }}" author="{{booksarr[index].writername}}" booksname="{{ booksarr[index].bookname }}"  booksurl="{{ booksarr[index].touxiang }}" wx:key="*this"></books>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">热门搜索</view>
+  </view>
+  <view class="hot-search-wrap">
+    <navigator wx:for="{{hotarr}}" wx:key="*this" class="antistop-wrap" style="color:rgb({{rs[index]}},{{gs[index]}},{{bs[index]}});">{{item.title}}</navigator>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">热销榜</view>
+    <navigator url="../science-classify/scieclassify" class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <swiper class="hot-market-wrap">
+    <swiper-item wx:for="{{ booksarr}}"><booked hotsellauthor="{{booksarr[index].writername}}" hotsellname="{{booksarr[index].bookname}}" hotsellurl="{{booksarr[index].touxiang}}" hotsellworks="{{booksarr[index].about}}"></booked></swiper-item>
+  </swiper>
 </view>

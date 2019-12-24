@@ -1,0 +1,10 @@
+<navigator class="booked-id-wrap">
+    <view class="booked-id-bottom-wrap">
+      <image class="booked-id-photo-wrap" src="{{hotsellurl}}"></image>
+      <view class="booked-id-right-wrap">
+        <view ><text class="booked-id-name-wrap">{{hotsellname}}</text> <text class="booked-id-omit-wrap">···</text> </view>
+        <view class="booked-id-author-wrap">作者：<text>{{hotsellauthor}}</text>  </view>
+        <view class="booked-id-wroks-wrap"> <text>{{hotsellworks}}</text> </view>
+      </view>
+    </view>
+</navigator>

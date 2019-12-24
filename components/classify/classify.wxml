@@ -1,5 +1,5 @@
 <!--components/classify/index.wxml-->
-<view class="main-id-wrap">
-  <image src="{{ urls }}" class="main-photo-id"></image>
-  <text class="text-id-wrap">{{ taxon }}</text>
-</view>
+<navigator class="main-id-wrap">
+  <image src="{{ taxonurl }}" class="main-photo-id"></image>
+  <text class="text-id-wrap">{{taxon}}</text>
+</navigator>

@@ -1,25 +1,34 @@
+// components/book-introduce/book.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    taxon:{
+    booksurl:{
       type:String,
       value:""
     },
-    taxonurl:{
-      type:String,
-      value:""
+    booksname:{
+      type: String,
+      value: ""
+    },
+    author:{
+      type: String,
+      value: ""
     }
   },
+
   /**
    * 组件的初始数据
    */
   data: {
+
   },
+
   /**
    * 组件的方法列表
    */
   methods: {
-  },
+
+  }
 })

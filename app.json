@@ -1,12 +1,15 @@
 {
   "pages": [
+    "pages/science-classify/scieclassify",
     "pages/homepage/homepage",
     "pages/my/my",
     "pages/index/index",
     "pages/logs/logs",
     "pages/explore/explore",
     "pages/bookrack/bookrack",
-    "components/classify/classify"
+    "components/classify/classify",
+    "components/book-details/details"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

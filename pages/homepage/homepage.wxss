@@ -1,5 +1,6 @@
 .container{
   background-color: #21272e;
+  padding-bottom: 200rpx;
 }
 .header-icon-wrap{
   width: 680rpx;
@@ -44,7 +45,40 @@
   width: 680rpx;
   margin: 0 auto;
   overflow: hidden;
+  border-bottom: 1px solid #2f343c;
 }
 .status-main-wrap-wrap{
   width: 720rpx;
+}
+.swirpe-wrap{
+  height: 250rpx;
+}
+.books-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1rpx solid #2f343c;
+}
+.hot-search-wrap{
+  width: 690rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #2f343c;
+}
+.antistop-wrap{
+  padding: 5rpx 30rpx;
+  border-width: 1rpx;
+  border-style: solid;
+  margin-bottom: 30rpx;
+  border-radius: 50rpx;
+}
+.hot-market-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  height: 340rpx;
 }

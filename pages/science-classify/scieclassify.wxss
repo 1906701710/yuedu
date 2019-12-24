@@ -1,0 +1,16 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 200rpx;
+}
+.back-wrap{
+  float: left;
+}
+.nav-intro-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  text-align: center
+}
+.main-wrap{
+  width: 680rpx;
+  margin:  0 auto;
+}

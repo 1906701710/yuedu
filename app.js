@@ -1,6 +1,45 @@
 //app.js
 App({
+  globalData: {
+    guserInfo: null,
+    gavatarUrl: "",  //用户头像
+    gtaxonarr: [],
+    gauthorarr: [],
+    gbooksarr: [],
+    ghotarr: [],
+  },
+  onLoad: function () {  
+  },
   onLaunch: function () {
+    //获取热门关键词
+    wx.request({
+      url: 'https://wujunhui.xyz/gethostser',
+      success: res => {
+        this.globalData.ghotarr =  res.data
+      }
+    }),
+    //获取作者信息
+    wx.request({
+      url: 'https://wujunhui.xyz/getwriters',
+      success: (res) => {
+         this.globalData.gauthorarr= res.data
+      }
+    }),
+      //获取分类排行
+      wx.request({
+        url: 'https://wujunhui.xyz/getfenleilist',
+        success: (res) => {
+          this.globalData.gtaxonarr= res.data
+        }
+      }),
+      //获取书籍信息
+      wx.request({
+        url: 'https://wujunhui.xyz/getbooks',
+        success: (res) => {
+          this.globalData.gbooksarr= res.data
+        }
+      })
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -55,8 +94,5 @@ App({
     })
     
   },
-  globalData: {
-    userInfo: null,
-    avatarUrl: ""//用户头像
-  }
+  
 })

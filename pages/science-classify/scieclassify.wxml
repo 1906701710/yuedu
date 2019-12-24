@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="nav-intro-wrap">
+    <mp-icon class="back-wrap" type="field" icon="back" color="white" size="{{12}}"></mp-icon>
+    科幻
+    <icon class="iconfont1 icon-list"></icon>
+  </view>
+  <view class="main-wrap">
+  </view>
+</view>
