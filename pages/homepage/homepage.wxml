@@ -5,7 +5,7 @@
   </view>
   <view class="search-wrap">
     <mp-icon class="icon-wrap" type="field" icon="search" color="#9da3b4" size="{{25}}"></mp-icon>
-    <input class="input-wrap" placeholder="搜索..."></input>
+    <input bindtap="seekinput" class="input-wrap" placeholder="搜索..."></input>
   </view>
   <view class="status-wrap">
     <view class="status-left">分类排行</view>
@@ -55,7 +55,7 @@
     </navigator>
   </view>
   <view class="books-wrap">
-    <books wx:for ="{{ booksarr }}" author="{{booksarr[index].writername}}" booksname="{{ booksarr[index].bookname }}"  booksurl="{{ booksarr[index].touxiang }}" wx:key="*this"></books>
+    <books wx:for ="{{ booksarr }}" author="{{booksarr[index].writername}}"  booksname="{{ booksarr[index].bookname }}"  booksurl="{{ booksarr[index].touxiang }}" wx:key="*this"></books>
   </view>
   <view class="status-wrap">
     <view class="status-left">热门搜索</view>
@@ -71,6 +71,6 @@
     </navigator>
   </view>
   <swiper class="hot-market-wrap">
-    <swiper-item wx:for="{{ booksarr}}"><booked hotsellauthor="{{booksarr[index].writername}}" hotsellname="{{booksarr[index].bookname}}" hotsellurl="{{booksarr[index].touxiang}}" hotsellworks="{{booksarr[index].about}}"></booked></swiper-item>
+    <swiper-item wx:for="{{ booksarr}}" wx:key="*this"><booked hotsellauthor="{{booksarr[index].writername}}" hotsellname="{{booksarr[index].bookname}}" hotsellurl="{{booksarr[index].touxiang}}" hotsellworks="{{booksarr[index].about}}"></booked></swiper-item>
   </swiper>
 </view>

@@ -37,6 +37,7 @@ App({
         url: 'https://wujunhui.xyz/getbooks',
         success: (res) => {
           this.globalData.gbooksarr= res.data
+          
         }
       })
 

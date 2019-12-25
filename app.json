@@ -1,14 +1,16 @@
 {
   "pages": [
-    "pages/science-classify/scieclassify",
+    "pages/buybook/buybook",
     "pages/homepage/homepage",
+    "pages/seek/seek",
+    "pages/bookrack/bookrack",
+    "pages/explore/explore",
     "pages/my/my",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/explore/explore",
-    "pages/bookrack/bookrack",
     "components/classify/classify",
-    "components/book-details/details"
+    "components/book-details/details",
+    "pages/science-classify/scieclassify"
     
   ],
   "window": {

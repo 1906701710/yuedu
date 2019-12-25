@@ -1,26 +1,27 @@
-// pages/science-classify/scieclassify.js
+// pages/seek/seek.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    taxonarr: [],
-    authorarr: [],
-    booksarr: [],
-    hotarr: [],
+    booksarr: "",
+    hotseek:""
   },
-
+  homepage:function(){
+    wx.switchTab({
+      url: '../homepage/homepage',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     const app = getApp();
+    console.log(app.globalData.gbooksarr)
     this.setData({
-      taxonarr: app.globalData.gtaxonarr,
-      authorarr: app.globalData.gauthorarr,
-      booksarr: app.globalData.gbooksarr,
-      hotarr: app.globalData.ghotarr,
+      booksarr: app.globalData.gbooksarr.slice(0, 3),
+      hotseek: app.globalData.ghotarr
     })
   },
 

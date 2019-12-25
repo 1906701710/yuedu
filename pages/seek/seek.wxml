@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="search-wrapper">
+    <view class="search-wrap">
+      <mp-icon class="icon-wrap" type="field" icon="search" color="#9da3b4" size="{{25}}"></mp-icon>
+      <input class="input-wrap" placeholder="搜索..."></input>
+    </view>
+    <navigator bindtap="homepage" class="cancel-wrap">取消</navigator>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">热门搜索</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="reading-wrapper">
+    <books wx:key="*this" wx:for="{{booksarr}}" booksurl="{{booksarr[index].touxiang}}" booksname="{{ booksarr[index].bookname}}" author="{{booksarr[index].writername}}"></books>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">搜索历史</view>
+    <navigator class="status-right">
+      <mp-icon type="field" icon="delete" color="#a2a8ba" size="{{20}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="hot-search-wrap">
+    <navigator class="hotseek" wx:for="{{hotseek}}" wx:key="*this">{{item.title}}</navigator>
+  </view>
+</view>

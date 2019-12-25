@@ -5,5 +5,6 @@
     <icon class="iconfont1 icon-list"></icon>
   </view>
   <view class="main-wrap">
+  <booked wx:for="{{ taxonarr}}" wx:key="*this" hotsellauthor="{{booksarr[index].writername}}" hotsellname="{{booksarr[index].bookname}}" hotsellurl="{{booksarr[index].touxiang}}" hotsellworks="{{booksarr[index].about}}"></booked>
   </view>
 </view>

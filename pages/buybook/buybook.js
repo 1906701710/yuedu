@@ -1,27 +1,18 @@
-// pages/science-classify/scieclassify.js
+// pages/buybook/buybook.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    taxonarr: [],
-    authorarr: [],
-    booksarr: [],
-    hotarr: [],
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const app = getApp();
-    this.setData({
-      taxonarr: app.globalData.gtaxonarr,
-      authorarr: app.globalData.gauthorarr,
-      booksarr: app.globalData.gbooksarr,
-      hotarr: app.globalData.ghotarr,
-    })
+
   },
 
   /**

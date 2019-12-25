@@ -1,0 +1,75 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 200rpx;
+}
+.search-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+}
+.search-wrap{
+  float: left;
+  width: 550rpx;
+  box-sizing: border-box;
+  padding: 35rpx 0rpx 35rpx 35rpx;
+  background-color: #2d353d;
+  border-radius: 80rpx;
+  overflow: hidden;
+}
+.cancel-wrap{
+  color: #a2a8ba;
+  font-size: 27rpx;
+  float: right;
+  line-height:120rpx; 
+  }
+.icon-wrap{
+  float: left;
+}
+.input-wrap{
+  float: left;
+  margin-left: 15rpx;
+}
+.status-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 40rpx 0rpx;
+}
+.status-left{
+  float: left;
+}
+.status-right{
+  float: right;
+  font-size: 25rpx;
+  color: #a2a8ba;
+  line-height: 20px;
+}
+.see-all-wrap{
+  margin-right: 15rpx;
+}
+.reading-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.history-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+}
+.hot-search-wrap{
+  width: 690rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #2f343c;
+}
+.hotseek{
+  padding: 10rpx 30rpx;
+  font-size: 25rpx;
+  background-color: #45485B;
+  border-radius: 30rpx;
+  margin-bottom: 30rpx;
+}

@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="back-wrapper">
+    <mp-icon type="field" icon="back" color="white" size="{{10}}"></mp-icon>
+  </view>
+  <view class="book-content-wrap">
+    <image src="https://wujunhui.xyz/book-santi.png" class=""></image>
+    <view></view>
+  </view>
+</view>

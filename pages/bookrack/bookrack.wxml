@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="status-wrap">
+    <view class="status-left">正在阅读</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="reading-wrapper">
+    <books wx:key="*this" wx:for="{{booksarr}}" booksurl="{{booksarr[index].touxiang}}" booksname="{{ booksarr[index].bookname}}" author="{{booksarr[index].writername}}"></books>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">未读</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="reading-wrapper">
+    <books wx:key="*this" wx:for="{{nobooksarr}}" booksurl="{{nobooksarr[index].touxiang}}" booksname="{{ nobooksarr[index].bookname}}" author="{{nobooksarr[index].writername}}"></books>
+  </view>
+</view>

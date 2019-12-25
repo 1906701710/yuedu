@@ -3,6 +3,7 @@
   height: 340rpx;
   box-sizing: border-box;
   padding-top: 40rpx;
+  margin-bottom: 40rpx;
 }
 .booked-id-bottom-wrap{
   width: 680rpx;

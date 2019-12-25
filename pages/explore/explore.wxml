@@ -1,2 +1,26 @@
-<!--pages/explore/explore.wxml-->
-<text>pages/explore/explore.wxml</text>
+<view class="container">
+  <view class="nav-wrap">
+  探索
+  <image  class="nav-icon-menu-wrapper"
+    src="{{zhankai}}"></image>
+  <image bindtap="isshow" class="nav-icon-menu-wrapper" src="{{weizhankai}}"></image>
+  </view>
+  <view wx:if="{{show}}" class="main-wrapper">
+    <navigator>
+      <image  src="{{sbooksarr}}" class="book-photo-wrapper">
+      </image>
+    </navigator>
+    <view class="book-name-wrapper">{{sbookname}}</view>
+    <view class="author-wrapper">{{sauthor}}</view>
+    <view class="reader-photo-wrapper">
+      <image class="reader-photo" wx:for="{{readerphoto}}" wx:key="*this" src="{{readerphoto[index].touxiang}}"></image>
+    </view>
+    <view class="reader-num-wrapper"> <text>475</text> 人已阅读</view>
+  </view>
+  <view wx:if="{{noshow}}" class="main-wrapper2">
+    <view bindtap="seeall" data-num="{{index}}" wx:for="{{bookallarr}}" wx:key="*this" class="book-wra">
+      <image class="book-photo-wra" src="{{bookallarr[index].touxiang}}"></image>
+      <view class="book-name-wra">{{bookallarr[index].bookname}}</view>
+    </view>
+  </view>
+</view>

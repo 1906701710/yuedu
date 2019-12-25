@@ -1,0 +1,12 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 200rpx;
+}
+.back-wrapper{
+  width: 680rpx;
+  margin:  0 auto;
+}
+.book-content-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+}
