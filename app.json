@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/writer/writer",
+    "pages/comment/comment",
     "pages/buybook/buybook",
     "pages/homepage/homepage",
     "pages/seek/seek",

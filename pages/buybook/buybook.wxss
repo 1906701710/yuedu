@@ -9,4 +9,243 @@
 .book-content-wrap{
   width: 680rpx;
   margin: 0 auto;
+  overflow: hidden;
+  margin-top: 40rpx;
+}
+.works-photo-wrapper{
+  float: left;
+  width: 250rpx;
+  height: 350rpx;
+}
+.works-particulars-wrapper{
+  width: 430rpx;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 30rpx;
+  padding-left: 30rpx;
+}
+.works-particulars-name{
+  font-size: 50rpx;
+}
+.works-particulars-author{
+  color: #828d9a;
+  margin-top: 10rpx;
+}
+.works-particulars-introduce{
+  color: #868dab;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  height: 80rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+}
+.works-particulars-score{
+  margin-top: 30rpx;
+}
+.works-particulars-score-star-wrap{
+  float: left;
+}
+.works-particulars-score-num{
+  float: left;
+  color: #ffce44;
+  margin-left: 20rpx;
+  font-size: 40rpx;
+}
+.state-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 60rpx 0rpx;
+  margin-top: 40rpx;
+  border-top: 1px solid #343946;
+  border-bottom: 1px solid #343946;
+}
+.like-icon-wrap{
+  width: 45rpx;
+  height: 45rpx;
+  float: left
+}
+.like-string-wrap{
+  float: left;
+  margin-left: 20rpx;
+}
+.particulars-center-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+}
+.articulars-center-string{
+  line-height: 150rpx;
+  font-size: 35rpx;
+}
+.articulars-center{
+  color: #868dab;
+  font-size: 30rpx;
+  line-height: 40 rpx;
+}
+.see-catalogue-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  line-height: 150rpx;
+  border-top: 1px solid #343946;
+  border-bottom: 1px solid #343946;
+  margin-top: 60rpx;
+}
+.arrow-icon-wrapper{
+  float: right;
+}
+.comment-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  line-height: 150rpx;
+}
+.comment-num-wrapper{
+  font-size: 25rpx;
+  color: #0274f1;
+  margin-left: 20rpx;
+}
+.comment-icon-wrapper{
+  width: 30rpx;
+  height: 30rpx;
+  float: right;
+  margin-top: 58rpx;
+}
+.uesr-comment-wrapper{
+  width: 680rpx;
+  margin:  0 auto;
+}
+.user-msg-wrapper{
+  line-height: 50rpx;
+  overflow: hidden;
+}
+.user-msg-photo{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+  float: left
+}
+.user-msg-name{
+  float: left;
+  margin-left: 20rpx;
+  font-size: 27rpx;
+}
+.user-comment-content-wrapper{
+  padding-left: 70rpx;
+}
+.user-comment-content{
+  font-size: 25rpx;
+  color: #868dab;
+}
+.user-comment-time-wrapper{
+  padding: 30rpx 0rpx;
+  font-size: 25rpx;
+  color: #656a7b;
+  border-bottom: 1px solid #343946;
+}
+.zan-wrapper{
+  display: inline-block;
+  margin-left: 20rpx;
+}
+
+.zan-comment-wrapper{
+  float: right;
+}
+.zan-icon-wrap{
+  margin-left: 10rpx;
+  padding-top: 6rpx;
+  width: 25rpx;
+  height: 25rpx;
+}
+.zan-num-wrap{
+  float: left;
+}
+.purchase-wrapper{
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #373a49;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40rpx 60rpx;
+}
+.try-and-see-wrapper{
+  display: inline-block;
+  padding: 30rpx 80rpx ;
+  background-color: #9295a9;
+  border-radius: 50rpx;
+}
+.purchase{
+  display: inline-block;
+  padding: 30rpx 150rpx ;
+  background-color: #fb6894;
+  border-radius: 50rpx;
+  margin-left: 30rpx;
+}
+.has-join{
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0,0.7);
+  position: fixed;
+}
+.has-joined-wrapper{
+  position: absolute;
+  background-color: #363947;
+  padding: 60rpx 60rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  left: 17%;
+  top: 17%;
+}
+.joined-photo-wrapper{
+  width: 250rpx;
+  height: 350rpx;
+}
+.hint-string-wrapper{
+  width: 350rpx;
+  margin-top: 30rpx;
+}
+.affirm-wrapper{
+  margin-top: 40rpx;
+  padding: 20rpx 150rpx;
+  background-color: #FB6894;
+  border-radius: 40rpx;
+}
+.share-wrapper{
+  position: fixed;
+  width: 100%;
+  bottom: 0rpx;
+  padding: 100rpx 0rpx;
+  background-color: #2D353F;
+  display: flex;
+  justify-content: space-evenly;
+}
+.fenxiang-icon-wrap{
+  width: 70rpx;
+  height: 70rpx;
+  box-sizing: border-box;
+  padding: 10rpx;
+  border-radius: 35rpx;
+  background-color: white;
+}
+.fenxiang{
+  width: 50rpx;
+  height: 50rpx;
+}
+.close-wrapper{
+  position: absolute;
+  top: 30rpx;
+  right: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  background-color: #1B1F24;
+  border-radius: 20rpx;
 }

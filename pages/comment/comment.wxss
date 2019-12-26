@@ -1,0 +1,67 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 200rpx;
+}
+.comment-nav-wrapper{
+  text-align: center;
+  width: 680rpx;
+  margin: 0 auto;
+}
+.back-wrapper{
+  float: left;
+}
+.comment-icon-wrapper{
+  width: 30rpx;
+  height: 30rpx;
+  float: right;
+}
+.uesr-comment-wrapper{
+  width: 680rpx;
+  margin:  0 auto;
+  margin-top: 40rpx;
+}
+.user-msg-wrapper{
+  line-height: 50rpx;
+  overflow: hidden;
+}
+.user-msg-photo{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+  float: left
+}
+.user-msg-name{
+  float: left;
+  margin-left: 20rpx;
+  font-size: 27rpx;
+}
+.user-comment-content-wrapper{
+  padding-left: 90rpx;
+}
+.user-comment-content{
+  font-size: 25rpx;
+  color: #868dab;
+}
+.user-comment-time-wrapper{
+  padding: 30rpx 0rpx;
+  font-size: 25rpx;
+  color: #656a7b;
+  border-bottom: 1px solid #343946;
+}
+.zan-wrapper{
+  display: inline-block;
+  margin-left: 20rpx;
+}
+
+.zan-comment-wrapper{
+  float: right;
+}
+.zan-icon-wrap{
+  margin-left: 10rpx;
+  padding-top: 6rpx;
+  width: 25rpx;
+  height: 25rpx;
+}
+.zan-num-wrap{
+  float: left;
+}

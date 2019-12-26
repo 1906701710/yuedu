@@ -1,0 +1,43 @@
+<view class="container">
+  <view class="comment-nav-wrapper">
+    <mp-icon class="back-wrapper" type="field" icon="back" color="white" size="{{10}}"></mp-icon>
+    作者
+    <icon class="icon-list iconfont1"></icon>
+  </view>
+  <view class="paihang-wrapper">
+    <view class="crown2-wrapper">
+      <image class="crown2-icon" src="../../weui-miniprogram/down/huangguan2.png"></image>
+      <image class="crown2-photo" src="https://wujunhui.xyz/zz-lcx.png"></image>
+      <view class="paiming-wrap">2</view>
+      <view class="crown2-name">余秋雨</view>
+      <view class="fensi-num">
+        <text>5869</text> 粉丝</view>
+    </view>
+
+    <view class="crown1-wrapper">
+      <image class="crown1-icon" src="../../weui-miniprogram/down/huangguan1.png"></image>
+      <image class="crown1-photo" src="https://wujunhui.xyz/zz-lcx.png"></image>
+      <view class="paiming1-wrap">1</view>
+      <view class="crown1-name">余秋雨</view>
+      <view class="fensi1-num">
+        <text>5869</text> 粉丝</view>
+    </view>
+
+    <view class="crown3-wrapper">
+      <image class="crown2-icon" src="../../weui-miniprogram/down/huangguan3.png"></image>
+      <image class="crown2-photo" src="https://wujunhui.xyz/zz-lcx.png"></image>
+      <view style="background-color: #00A2FF;" class="paiming-wrap">3</view>
+      <view style="color: #00A2FF;" class="crown2-name">余秋雨</view>
+      <view class="fensi-num">
+        <text>5869</text> 粉丝</view>
+    </view>
+
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">热门作者</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+</view>

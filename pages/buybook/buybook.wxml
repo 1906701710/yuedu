@@ -1,9 +1,105 @@
 <view class="container">
+
   <view class="back-wrapper">
     <mp-icon type="field" icon="back" color="white" size="{{10}}"></mp-icon>
   </view>
   <view class="book-content-wrap">
-    <image src="https://wujunhui.xyz/book-santi.png" class=""></image>
-    <view></view>
+    <image src="https://wujunhui.xyz/book-santi.png" class="works-photo-wrapper"></image>
+    <view class="works-particulars-wrapper">
+      <view class="works-particulars-name">三体：死神永生</view>
+      <view class="works-particulars-author">作者：
+        <text>刘慈心</text>
+      </view>
+      <view class="works-particulars-introduce">刘慈心创作的系列长篇科幻小说地球往事三部曲的第三步作品</view>
+      <view class="works-particulars-score">
+        <view class="works-particulars-score-star-wrap">
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+        </view>
+        <text class="works-particulars-score-num">5.0</text>
+      </view>
+    </view>
+  </view>
+  <view class="state-wrapper">
+    <view >
+      <image class="like-icon-wrap" src="../../weui-miniprogram/down/like/yes/hert-hongse.png"></image>
+      <text class="like-string-wrap">收藏</text>
+    </view>
+    <view bindtap="isshare" class="">
+      <image class="like-icon-wrap" src="../../weui-miniprogram/down/like/no/fenxiang.png"></image>
+      <text class="like-string-wrap">分享</text>
+    </view>
+    <view bindtap="isshow" class="">
+      <image class="like-icon-wrap" src="../../weui-miniprogram/down/like/no/shujia-copy.png"></image>
+      <text class="like-string-wrap">加入书架</text>
+    </view>
+  </view>
+  <view class="particulars-center-wrapper">
+    <view class="articulars-center-string">详情</view>
+    <view class="articulars-center">与三体文明的战争使人类第一次看到了宇 宙黑暗的真相，地球文明像一个恐惧的孩子，熄灭了寻友的篝火， 在暗夜中发抖。使两个文明命悬一线的黑暗森林打击，不过 是宇宙战场上一个微不足道的插曲。。
+    </view>
+  </view>
+  <navigator class="see-catalogue-wrapper">
+    <text>查看目录</text>
+    <mp-icon class="arrow-icon-wrapper" type="field" icon="arrow" color="#868dab" size="{{10}}"></mp-icon>
+  </navigator>
+  <view class="comment-wrapper">
+    <text>评论</text>
+    <text class="comment-num-wrapper"> <text>215</text> 条评论</text>
+    <image class="comment-icon-wrapper" src="../../weui-miniprogram/down/pinglun.png"></image>
+  </view>
+  <view class="uesr-comment-wrapper">
+    <view class="user-msg-wrapper">
+      <image class="user-msg-photo" src="https://wujunhui.xyz/zz-lcx.png"></image>
+      <text class="user-msg-name">你个废物</text>
+    </view>
+    <view class="user-comment-content-wrapper">
+      <text class="user-comment-content">多年以后，我还会记得看完《三体》的那个秋夜，我走出家门，在小区里盘桓。铅灰色的上丅海夜空几乎看不到几颗星星，但是我的心中却仿佛有无限的星光在涌动。这是一种奇异的感受，我的视觉、听觉和思维好像都被放大、重组和牵引，指向一个浩瀚的所在。即使没有光污染，身在北半球中纬度的我也不可能看到半人马座。但是在《三体》之后，我却觉得自己与那看不见的星系中子虚乌有的三了一种近乎真实的联系。从一开始，刘慈欣就被人视为中国的硬科幻代表。要知道，这是一桩吃力不讨好的活儿，在当今这个微小化、朋克化和奇幻化的世界科幻文坛，相当不与时俱进。
+      </text>
+      <view class="user-comment-time-wrapper">
+        <text class="user-comment-time">12-04 21:20</text>
+        <view class="zan-comment-wrapper">
+          <view class="zan-wrapper">
+            <image class="zan-icon-wrap" class="zan-icon-wrap" src="../../weui-miniprogram/down/like/no/hert-hongse.png"></image>
+            <text class="zan-num-wrap">134</text>
+          </view>
+          <view class="zan-wrapper">
+            <image class="zan-icon-wrap" class="zan-icon-wrap" src="../../weui-miniprogram/down/llalbummsgsign.png"></image>
+            <text class="zan-num-wrap">134</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="purchase-wrapper">
+    <navigator class="try-and-see-wrapper">试看</navigator>
+    <navigator class="purchase">购买</navigator>
+  </view>
+  <view wx:if="{{show}}" class="has-join">
+    <view class="has-joined-wrapper">
+      <image class="joined-photo-wrapper" src="https://wujunhui.xyz/book-santi.png"></image>
+      <view class="hint-string-wrapper">已将这本书加入到个人书架</view>
+      <view bindtap="noshow" class="affirm-wrapper">好的</view>
+    </view>
+  </view>
+  <view wx:if="{{share}}" class="share-wrapper">
+    <view class="fenxiang-icon-wrap">
+      <image src="../../weui-miniprogram/down/fenxiang/pengyouquan.png" class="fenxiang"></image>
+    </view>
+    <view class="fenxiang-icon-wrap">
+      <image src="../../weui-miniprogram/down/fenxiang/kongjian.png" class="fenxiang"></image>
+    </view>
+    <view class="fenxiang-icon-wrap">
+      <image src="../../weui-miniprogram/down/fenxiang/weibo.png" class="fenxiang"></image>
+    </view>
+    <view class="fenxiang-icon-wrap">
+      <image src="../../weui-miniprogram/down/fenxiang/QQ--.png" class="fenxiang"></image>
+      <view bindtap="noshare" class="close-wrapper">
+        <mp-icon type="field" icon="close" color="white" size="{{15}}"></mp-icon>
+      </view>
+    </view>
   </view>
 </view>

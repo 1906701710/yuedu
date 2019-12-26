@@ -1,40 +1,18 @@
-// pages/buybook/buybook.js
+// pages/comment/comment.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    show:false,
-    share:false,
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  isshow:function(){
-    this.setData({
-      show:true
-    })
-  },
-  noshow:function(){
-    this.setData({
-      show:false
-    })
-  },
-  isshare:function(){
-    this.setData({
-      share: true,
-    })
-  },
-  noshare:function(){
-    this.setData({
-      share: false,
-    })
-  },
   onLoad: function (options) {
-    console.log(this.data.height)
-    console.log(this.data.width)
+
   },
 
   /**
