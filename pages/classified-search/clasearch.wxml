@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="search-wrapper">
+    <view class="search-wrap">
+      <mp-icon class="icon-wrap" type="field" icon="search" color="#9da3b4" size="{{25}}"></mp-icon>
+      <input class="input-wrap" placeholder="搜索..."></input>
+    </view>
+  </view>
+  <swiper class="swiper-wrapper">
+    <swiper-item>科幻</swiper-item>
+  </swiper>
+</view>

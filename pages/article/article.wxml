@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="section-wrapper">
+    章节 <text>10</text> 详情
+  </view>
+  <view class="content-wrapper">
+    <text>
+    {{content}}
+    </text>
+  </view>
+  <view class="content-title">
+    个人介绍：内幕（542）
+  </view>
+</view>

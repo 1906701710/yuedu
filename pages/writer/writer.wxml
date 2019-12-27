@@ -40,4 +40,36 @@
       <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
     </navigator>
   </view>
+  <swiper class="swiper-warp" display-multiple-items="4.4">
+    <swiper-item wx:for="{{urlarr}}" wx:key="*this">
+      <view class="swiper">
+        <image class="author-photo-wrapper" src="{{urlarr[index].touxiang}}"></image>
+        <view class="author-name-wrapper">{{urlarr[index].name}}</view>
+        <view class="isattention-wrapper">已关注</view>
+      </view>
+    </swiper-item>
+  </swiper>
+  <view class="status-wrap">
+    <view class="status-left">新晋作者</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <swiper class="swiper-warp" display-multiple-items="4.4">
+    <swiper-item wx:for="{{urlarr}}" wx:key="*this">
+      <view class="swiper">
+        <image class="author-photo-wrapper" src="{{urlarr[index].touxiang}}"></image>
+        <view class="author-name-wrapper">{{urlarr[index].name}}</view>
+        <view class="isattention-wrapper">已关注</view>
+      </view>
+    </swiper-item>
+  </swiper>
+  <view class="status-wrap">
+    <view class="status-left">其他作者</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
 </view>

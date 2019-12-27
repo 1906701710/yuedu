@@ -1,0 +1,72 @@
+<view class="container">
+  <view class="comment-nav-wrapper">
+    <mp-icon class="back-wrapper" type="field" icon="back" color="white" size="{{10}}"></mp-icon>
+    作者
+  </view>
+  <view class="mymsg-wrap">
+    <image class="header-photo" src='https://wx.qlogo.cn/mmopen/vi_32/NxEeU0zoelnCVOBueWV03V8SVO9ibKPqstYKjzH4wx244934FhsnReygHXGvIxm8YojpX27npEAZ0VvvkWCGcgA/132'></image>
+    <view class="adress-wrap">
+      <view class="name-wrap">李雪玲</view>
+      <view class="adress">中国/襄阳</view>
+      <view class="share-wrap"><icon class="iconfont icon-fenxiang"></icon> <text>分享</text></view>
+    </view>
+    <view class="isattention-wrapper">+关注</view>
+    
+  </view>
+  <view class="details-wrap">
+    <view class="details">
+      <view>1266</view>
+      <view class="my-details">关注</view>
+    </view>
+    <view class="details">
+      <view>4342</view>
+      <view class="my-details">粉丝</view>
+    </view>
+    <view class="details details-sole">
+      <view>4345</view>
+      <view class="my-details">喜欢</view>
+    </view>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">分类排行</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">总共 <text>3</text> 本书</text>
+    </navigator>
+  </view>
+  <view class="book-content-wrap">
+    <image src="https://wujunhui.xyz/book-santi.png" class="works-photo-wrapper"></image>
+    <view class="works-particulars-wrapper">
+      <view class="works-particulars-name">三体：死神永生</view>
+      <view class="works-particulars-score">
+        <view class="works-particulars-score-star-wrap">
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+        </view>
+        <text class="works-particulars-score-num">5.0</text>
+      </view>
+      <view class="works-particulars-introduce">刘慈心创作的系列长篇科幻小说地球往事三部曲的第三步作品</view>
+      <view class="reading-photo-wrapper"> <text>366</text> 人阅读</view>
+    </view>
+  </view>
+  <view class="book-content-wrap">
+    <image src="https://wujunhui.xyz/book-santi.png" class="works-photo-wrapper"></image>
+    <view class="works-particulars-wrapper">
+      <view class="works-particulars-name">三体：死神永生</view>
+      <view class="works-particulars-score">
+        <view class="works-particulars-score-star-wrap">
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+          <mp-icon type="field" icon="star" color="#fb6894" size="{{20}}"></mp-icon>
+        </view>
+        <text class="works-particulars-score-num">5.0</text>
+      </view>
+      <view class="works-particulars-introduce">刘慈心创作的系列长篇科幻小说地球往事三部曲的第三步作品</view>
+      <view class="reading-photo-wrapper"> <text>366</text> 人阅读</view>
+    </view>
+  </view>
+</view>

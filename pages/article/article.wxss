@@ -1,0 +1,19 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 200rpx;
+}
+.section-wrapper{
+  width: 680rpx;
+  margin:  0 auto;
+}
+.content-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  color: #d1d1d6;
+}
+.content-title{
+  width: 680rpx;
+  margin: 0 auto;
+  line-height: 100rpx;
+  color: #797c82;
+}

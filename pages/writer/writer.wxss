@@ -143,3 +143,29 @@
   color: #a2a8ba;
   line-height: 20px;
 }
+.swiper-warp{
+  width: 680rpx;
+  margin: 0 auto;
+  border-bottom: 1px solid #2f343c; 
+}
+.author-photo-wrapper{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.author-name-wrapper{
+  font-size: 29rpx;
+  width: 120rpx;
+  text-align: center;
+}
+.isattention-wrapper{
+  font-size: 25rpx;
+  width: 120rpx;
+  height: 50rpx;
+  box-sizing: border-box;
+  border:1rpx solid #545d66;
+  line-height: 50rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}

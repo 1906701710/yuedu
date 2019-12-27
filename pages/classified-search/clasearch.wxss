@@ -1,0 +1,34 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 200rpx;
+}
+.search-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+}
+.search-wrap{
+  float: left;
+  width: 680rpx;
+  box-sizing: border-box;
+  padding: 35rpx 0rpx 35rpx 35rpx;
+  background-color: #2d353d;
+  border-radius: 80rpx;
+  overflow: hidden;
+}
+.cancel-wrap{
+  color: #a2a8ba;
+  font-size: 27rpx;
+  float: right;
+  line-height:120rpx; 
+  }
+.icon-wrap{
+  float: left;
+}
+.input-wrap{
+  float: left;
+  margin-left: 15rpx;
+}
+.swiper-wrapper{
+  width: 680rpx;
+  margin:  0 auto;
+}
