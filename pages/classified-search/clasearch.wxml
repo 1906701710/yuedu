@@ -6,6 +6,6 @@
     </view>
   </view>
   <swiper class="swiper-wrapper">
-    <swiper-item>科幻</swiper-item>
+    <swiper-item>科幻片</swiper-item>
   </swiper>
 </view>
