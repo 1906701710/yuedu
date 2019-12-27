@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="comment-nav-wrapper">
+    <mp-icon class="back-wrapper" type="field" icon="back" color="white" size="{{10}}"></mp-icon>
+    账户余额
+  </view>
+  <view class="main-wrapper">
+    <view class="my-string-wrapper">我的余额（元）</view>
+    <view class="my-num-wrapper">￥
+      <input class="input-wrapper"></input>
+    </view>
+  </view>
+  <view class="addmoney-wrapper">下一步</view>
+  <view class="add-way-wrapper">
+    <view class="affirm-wrapper">确认付款（元）</view>
+    <view class="affirm-num-wrap">250.00</view>
+    <view class="affirm-msg-wrap">订单信息
+      <text class="affirm-msg-wraps">充值</text> </view>
+    <view affirm-msg-wrap>付款方式
+      <text class="affirm-msg-wraps">中国银行卡（0288）</text>
+      <mp-icon class="unfold-wrapper" type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </view>
+    <view>指纹验证或 <text>输入密码</text> </view>
+  </view>
+
+</view>

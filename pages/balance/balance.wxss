@@ -1,0 +1,38 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 1200rpx;
+}
+.comment-nav-wrapper{
+  text-align: center;
+  width: 680rpx;
+  margin: 0 auto;
+  padding-bottom: 60rpx;
+}
+.back-wrapper{
+  float: left;
+}
+.main-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  background-color: #2b323b;
+  border-radius: 20rpx;
+  padding-left: 30rpx;
+  padding-top: 40rpx;
+  box-sizing: border-box;
+  padding-bottom: 50rpx;
+}
+.my-string-wrapper{
+  color: #a2a8ba;
+}
+.my-num-wrapper{
+  font-size: 70rpx;
+  margin-top: 20rpx;
+}
+.addmoney-wrapper{
+  position: fixed;
+  line-height: 100rpx;
+  text-align: center;
+  bottom: 0rpx;
+  background-color: #fb6894;
+  width: 100%;
+}

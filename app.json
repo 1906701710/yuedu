@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/addmoney/addmoney",
+    "pages/balance/balance",
+    "pages/seting/seting",
     "pages/classified-search/clasearch",
     "pages/article/article",
     "pages/writermsg/writermsg",

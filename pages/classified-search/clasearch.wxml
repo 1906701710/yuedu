@@ -1,11 +1,37 @@
 <view class="container">
+  <view class="comment-nav-wrapper">
+    <mp-icon class="back-wrapper" type="field" icon="back" color="white" size="{{10}}"></mp-icon>
+    分类
+  </view>
   <view class="search-wrapper">
     <view class="search-wrap">
       <mp-icon class="icon-wrap" type="field" icon="search" color="#9da3b4" size="{{25}}"></mp-icon>
       <input class="input-wrap" placeholder="搜索..."></input>
     </view>
   </view>
-  <swiper class="swiper-wrapper">
-    <swiper-item>科幻片</swiper-item>
+  <swiper class="swiper-wrapper" display-multiple-items="6.5">
+    <swiper-item wx:for="{{classilydata}}">
+      <text class="classily-string-wrapper {{ flag == index ? 'highlight' : '' }}" bindtap="highlight" data-num="{{index}}">{{item}}</text>
+    </swiper-item>
   </swiper>
+  <view class="status-wrap">
+    <view class="status-left">新上架</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="reading-wrapper">
+    <books wx:key="*this" wx:key="*this" wx:for="{{booksarr}}" booksurl="{{booksarr[index].touxiang}}" booksname="{{ booksarr[index].bookname}}" author="{{booksarr[index].writername}}"></books>
+  </view>
+  <view class="status-wrap">
+    <view class="status-left">热门</view>
+    <navigator class="status-right">
+      <text class="see-all-wrap">查看全部</text>
+      <mp-icon type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    </navigator>
+  </view>
+  <view class="reading-wrapper">
+    <books wx:key="*this" wx:key="*this" wx:for="{{booksarr}}" booksurl="{{booksarr[index].touxiang}}" booksname="{{ booksarr[index].bookname}}" author="{{booksarr[index].writername}}"></books>
+  </view>
 </view>

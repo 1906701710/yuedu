@@ -1,0 +1,31 @@
+<view class="container">
+  <view style="color:white;" class="comment-nav-wrapper">
+    <mp-icon class="back-wrapper" type="field" icon="back" color="white" size="{{10}}"></mp-icon>
+    设置
+  </view>
+  <view class="all-wrapper">
+    <text>查看账户</text>
+    <mp-icon class="unfold-wrapper" type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+  </view>
+  <view class="all-wrapper">
+    <text>个人资料</text>
+    <mp-icon class="unfold-wrapper" type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+  </view>
+  <view class="all-wrapper">
+    <text>消息提醒</text>
+    <switch color="#fb6894" class="unfold-wrapper"></switch>
+  </view>
+  <view class="all-wrapper">
+    <text>清理缓存</text>
+    <mp-icon class="unfold-wrapper" type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+    <text class="memory-wrapper">128 MB</text>
+  </view>
+  <view class="all-wrapper">
+    <text>帮助中心</text>
+    <mp-icon class="unfold-wrapper" type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+  </view>
+  <view class="all-wrapper">
+    <text>关于我们</text>
+    <mp-icon class="unfold-wrapper" type="field" icon="arrow" color="#a2a8ba" size="{{10}}"></mp-icon>
+  </view>
+</view>

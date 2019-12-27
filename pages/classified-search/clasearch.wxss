@@ -2,9 +2,18 @@
   background-color: #21272e;
   padding-bottom: 200rpx;
 }
+.comment-nav-wrapper{
+  text-align: center;
+  width: 680rpx;
+  margin: 0 auto;
+}
+.back-wrapper{
+  float: left;
+}
 .search-wrapper{
   width: 680rpx;
   margin: 0 auto;
+  margin-top: 30rpx;
 }
 .search-wrap{
   float: left;
@@ -31,4 +40,41 @@
 .swiper-wrapper{
   width: 680rpx;
   margin:  0 auto;
+  height: 250rpx;
+}
+.classily-string-wrapper{
+  display: inline-block;
+  padding: 40rpx 20rpx;
+  border-bottom: 1rpx solid #2d353d;
+  color: #545f6c;
+}
+.highlight{
+  color: white;
+  border-color: #fb6894;
+}
+.status-wrap{
+  width: 680rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 40rpx 0rpx;
+}
+.status-left{
+  float: left;
+}
+.status-right{
+  float: right;
+  font-size: 25rpx;
+  color: #a2a8ba;
+  line-height: 20px;
+}
+.see-all-wrap{
+  margin-right: 15rpx;
+}
+.reading-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1rpx solid #2d353d;
 }

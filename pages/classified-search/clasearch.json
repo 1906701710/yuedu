@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "books": "../../components/book-introduce/book"
+  }
 }

@@ -1,0 +1,28 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 200rpx;
+  color: #a2a8ba;
+}
+.comment-nav-wrapper{
+  text-align: center;
+  width: 680rpx;
+  margin: 0 auto;
+}
+.back-wrapper{
+  float: left;
+}
+.all-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  line-height: 150rpx;
+  border-bottom: 1rpx solid #2d353d;
+  margin-top: 5rpx;
+}
+.unfold-wrapper{
+  float: right;
+}
+.memory-wrapper{
+  float: right;
+  margin-right: 20rpx;
+  font-size: 27rpx;
+}

@@ -1,0 +1,69 @@
+.container{
+  background-color: #21272e;
+  padding-bottom: 1200rpx;
+}
+.comment-nav-wrapper{
+  text-align: center;
+  width: 680rpx;
+  margin: 0 auto;
+  padding-bottom: 60rpx;
+}
+.back-wrapper{
+  float: left;
+}
+.main-wrapper{
+  width: 680rpx;
+  margin: 0 auto;
+  background-color: #2b323b;
+  border-radius: 20rpx;
+  padding-left: 30rpx;
+  padding-top: 40rpx;
+  box-sizing: border-box;
+  padding-bottom: 50rpx;
+}
+.my-string-wrapper{
+  color: #a2a8ba;
+}
+.my-num-wrapper{
+  font-size: 70rpx;
+  margin-top: 20rpx;
+  border-bottom: 1rpx solid #434e5c;
+  padding-bottom: 30rpx;
+}
+.input-wrapper{
+  height: 100rpx;
+  width: 500rpx;
+  float: right;
+  margin-right: 50rpx;
+}
+.addmoney-wrapper{
+  position: fixed;
+  line-height: 100rpx;
+  text-align: center;
+  bottom: 0rpx;
+  background-color: #2e363f;
+  width: 100%;
+}
+.add-way-wrapper{
+  width: 100%;
+  background-color: #2b323b;
+  padding: 40rpx 30rpx;
+  position: fixed;
+  bottom: 0rpx;
+  z-index: 4;
+}
+.affirm-wrapper{
+  color: #75808d;
+}
+.affirm-num-wrap{
+  font-size: 70rpx;
+}
+.affirm-msg-wrap{
+  color: #dcdeea;
+  
+}
+.affirm-msg-wraps{
+  font-size: 28rpx;
+  color: #636c77;
+  margin-left: 220rpx;
+}

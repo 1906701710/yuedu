@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="comment-nav-wrapper">
+    <mp-icon class="back-wrapper" type="field" icon="back" color="white" size="{{10}}"></mp-icon>
+    账户余额
+  </view>
+  <view class="main-wrapper">
+    <view class="my-string-wrapper">我的余额（元）</view>
+    <view class="my-num-wrapper">1375.00</view>
+  </view>
+  <view class="addmoney-wrapper">充值</view>
+</view>

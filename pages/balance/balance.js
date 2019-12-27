@@ -1,26 +1,18 @@
-// pages/classified-search/clasearch.js
+// pages/balance/balance.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    classilydata:["科幻","职场","言情","艺术","科学","军事","科技","国防","神话","历史","搞笑","快讯","名人"],
-    flag:false,
-    booksarr: "",
-    hotseek: ""
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const app = getApp();
-    console.log(app.globalData.gbooksarr)
-    this.setData({
-      booksarr: app.globalData.gbooksarr.slice(0, 3),
-      hotseek: app.globalData.ghotarr
-    })
+
   },
 
   /**
@@ -29,12 +21,7 @@ Page({
   onReady: function () {
 
   },
-  highlight:function(e){
-    console.log(e.currentTarget.dataset.num)
-    this.setData({
-      flag: e.currentTarget.dataset.num,
-    })
-  },
+
   /**
    * 生命周期函数--监听页面显示
    */
